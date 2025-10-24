@@ -1,0 +1,69 @@
+.feed-page {
+  display: grid;
+  grid-template-areas:
+    "logo header"
+    "filter-panel feed-main";
+  grid-template-columns: 25% 1fr;
+}
+
+/*------Фильтры-------*/
+
+.filter-panel {
+  grid-area: filter-panel;
+  /* width: 30%; */
+}
+
+.filter-panel p {
+  font-size: 22px;
+  font-weight: 300;
+}
+
+/*-------------*/
+
+
+/*------Лента и вспомогательные кнопки поиска-------*/
+.feed-main {
+  grid-area: feed-main;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+}
+
+/*для теста*/
+/* .item {
+  border: 1px solid black;
+} */
+
+.search-helper {
+  display: flex;
+
+  justify-content: flex-start;
+  gap: 20px;
+
+  /* height: 40px; */
+}
+
+.search-helper button {
+  font-size: 18px;
+
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: none;
+
+  padding: 10px;
+}
+
+/*-------------------*/
+
+/*------------Лента-------------*/
+.feed {
+  display: flex;
+  gap: 13px;
+
+  /* margin-right: 10px; */
+  flex-wrap: wrap;
+}
+
+/*----------------------------*/
