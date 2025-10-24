@@ -17,12 +17,12 @@ const ProductCard = ({ product }) => {
                     ...
                 </div>
             </div>
-            <div className="price">
+            {/* <div className="price">
                 <p className="previous-price">
                     <s>313 ₽</s>
                 </p>
                 <p className="new-price">72 ₽</p>
-            </div>
+            </div> */}
         </div>
     )
 }
